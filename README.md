@@ -7,8 +7,7 @@ Use this repository as a template to begin curation of a new dataset.
 4. Follow the SOPs below.
 
 ## Curation levels
-Curation levels are defined in $doc
-
+Curation levels are defined in [levels.md](https://github.com/criticalpathinstitute/data_curation_template/blob/main/levels.md)
 
 ## Curation SOPs
 
@@ -23,6 +22,7 @@ All C-Path data receive basic curation upon ingest, before moving to the storage
 
 **Perform automated data checks:**
 
+- Assign a dataset ID of the form RDCA##### 
 - Does the dataset match the manifest? 
 - Are there data dictionaries for tabular data? 
 - Are CRFs and protocols provided? 
@@ -43,19 +43,20 @@ All C-Path data receive basic curation upon ingest, before moving to the storage
 ### Minimal 1 Curation
 All DAP data receive minimal 1 curation before being moved to FAIR. The goal of minimal 1 is to provide rapid discovery of datasets, even in their raw form.
 
-1. Create new repository from the data_curation_template.
-2. 
-files in manifest are present 
-
-Files are typed. This will probably have to be done manually. How do we store this? As a spreadsheet in GH? As GH comments? 
-
-Are data dictionaries present and ready to go into FAIR? 
-
-One-off datasets are more likely to be small. Larger datasets are more likely to be tabular. (We hope.) 
-
-Add tickets as needed. Some of them will go into Minimal 2 
-
-Methods: 
+ - Create new repository from the data_curation_template (this repo).
+ - In the curation Workspace, create a folder hierarchy following naming conventions:
+    - Top-level folder named for the dataset ID (e.g., RDCA#####)
+        - *Subdirectories for:*
+        - Original Data
+        - Documentation
+        - FAIR uploads (catalog, dictionaries, and metadata go here) 
+          - *Subdirectories for versions:*
+          - Beta 
+          - V1 
+          - V2 
+          - ...
+ - Copy the dataset into the curation Workspace in the appropriate folder under `Original data`.
+ - 
 
 Metadata would go into an actual database 
 
