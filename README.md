@@ -56,29 +56,13 @@ All DAP data receive minimal 1 curation before being moved to FAIR. The goal of 
           - V2 
           - ...
  - Copy the dataset into the curation Workspace in the appropriate folder under `Original data`.
- - 
+ - Open a new issue using the template 'M1: Convert to dataset' and follow the steps on the template
+     - **NOTE:** These datasets need to go into a relational database that connects to the workspace, but for now, they will be saved as single datasets in the workspace.
+ - Open a new issue using the template 'M1: Create data dictionaries' and follow the steps on the template.
+ - Open a new issue using the template 'M1: Metadata and data catalog' and follow the steps on the template.
+ - Open a new issue using the template 'M1: Manual checks' and follow the steps on the template.
+ - Open a new issue using the template 'M1: Scripts and upload' and follow the steps on the template.
 
-Metadata would go into an actual database 
+### Minimum 2 Curation
 
-In the workspace, we could work with tables, but they would be stored externally in a relational database 
-
-Workaround is to just use tables in in workspace, like Will did for beta 
-
-Need tables for: 
-
-Dataset 
-
-Catalog 
-
-Data dictionaries 
-
-Lookups 
-
-Manifest 
-
-Files  
-
-Tasks for curator would be to open manifest table and add missing types and notes on quality 
-
-Open catalog, dictionary, and lookup tables to make sure they make sense. 
 
