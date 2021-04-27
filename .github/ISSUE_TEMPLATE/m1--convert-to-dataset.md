@@ -7,5 +7,5 @@ assignees: ''
 
 ---
 
-Convert any single-table CSV files that have dictionaries to a dataset the built in workspace function. 
-Create a data dictionary for each file.
+If there are single table data files that are not CSV (e.g., Excel, TSV), convert them to CSV.
+Convert any single-table CSV files to a dataset the built in workspace function.
