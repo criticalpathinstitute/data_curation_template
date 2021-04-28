@@ -15,7 +15,16 @@ At the end of basic curation, a receipt is automatically sent to Scientific Dire
 All DAP data receive minimal 1 curation before being moved to FAIR. The goal of minimal 1 is to provide rapid discovery of datasets, even in their raw form. Minimal 1 curation includes:
 - Create a DCAT-compliant data catalog. 
 - Create FAIR compliant data dictionaries for any data that are in a single table format and conform to postgres rules.
-- Mark data status as "uncurated".
+- Mark data status as "raw".
 
 ### Minimal 2
-All data receive minimal 2 curation and update to FAIR, but priority rules may delay this step for some datasets. 
+All data receive minimal 2 curation and update to FAIR, but priority rules may delay this step for some datasets. Minimal 2 curation includes:
+- Separate Excel workbooks into single sheets and save as CSV.
+- Make sure all data tables have dictionaries.
+- Other tasks discovered during Minimal 1 assessment. 
+- Mark data status as "minimally curated"
+
+### Full 1
+
+### Full 2
+
