@@ -62,16 +62,17 @@ All DAP data receive minimal 1 curation before being moved to FAIR. The goal of 
  - Open a new issue using the template 'M1: Metadata and data catalog' and follow the steps on the template.
  - Open a new issue using the template 'M1: Manual checks' and follow the steps on the template.
  - Open a new issue using the template 'M1: Scripts and upload' and follow the steps on the template.
-     - Data files will go in the folder $datasetID/V1 
+     - Data files will go in the folder $datasetID/FAIR uploads/V1 
+     - Data should be marked as "raw"
 
 ### Minimum 2 Curation
 All data receive minimal 2 curation and update to FAIR, but priority rules may delay this step for some datasets. The goal of minimal 2 is to have all data tables on FAIR, but not standardized or cleaned up.
-
-- Separate Excel workbooks into single sheets and save as CSV.
-- Make sure all data tables have dictionaries.
-- Other tasks discovered during Minimal 1 assessment. 
-- Mark data status as "minimally curated"
-
+- Open a new issue using the template 'M2: Convert all tables to CSV' and follow the steps on the template. Separate Excel workbooks into single sheets and save as CSV.
+- Open a new issue using the template 'M2: Dictionaries for all tables' and follow the steps on the template.
+- Open a new issue using the template 'M2: Other tasks discovered during Minimal 1 assessment' and follow the steps on the template. 
+- Open a new issue using the template 'M2: Scripts and upload' and follow the steps on the template.
+     - Data files will go in the folder $datasetID/FAIR uploads/V2 
+     - Data should be marked as "minimally curated"
 
 
 
