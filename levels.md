@@ -12,13 +12,13 @@ All C-Path data receive basic curation upon ingest, before moving to the storage
 At the end of basic curation, a receipt is automatically sent to Scientific Director and data contributor and stored in our archival bucket.
 Going forward, will automate the movement to workspace at the end of this.
 
-### Level 1.1
+### FAIR netadata 1
 All DAP data receive minimal 1 curation before being moved to FAIR. The goal of minimal 1 is to provide rapid discovery of datasets, even in their raw form. Minimal 1 curation includes:
 - Create a DCAT-compliant data catalog. 
 - Create FAIR compliant data dictionaries for any data that are in a single table format and conform to postgres rules.
 - Mark data status as "raw".
 
-### Level 1.2
+### FAIR metadata 2
 All data receive minimal 2 curation and update to FAIR, but priority rules may delay this step for some datasets. Minimal 2 curation includes:
 - Separate Excel workbooks into single sheets and save as CSV.
 - Make sure all data tables have dictionaries.
@@ -26,7 +26,7 @@ All data receive minimal 2 curation and update to FAIR, but priority rules may d
 - Other tasks discovered during Minimal 1 assessment. 
 - Mark data status as "minimally curated"
 
-### Full 1
+### FAIR variables 1
 Datasets receive full curation in order of their priority. Full 1 includes only selected variables, which may differ among consortia and among  types of datasets.
 
 The default set of variables to curate for Full 1 are (**for review**): 
@@ -60,6 +60,6 @@ Full 1 curation includes, for selected variables:
    - Update data dictionary with status of variable (raw, curated, ontologized) 
 - Enforce naming conventions for data dictionaries 
 
-### Full 2
+### FAIR variables 2
 Full 2 curation is the same as full 1, but it includes additional variables whose curation is requested after full 1.
 
