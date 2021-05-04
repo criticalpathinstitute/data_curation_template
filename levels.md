@@ -1,5 +1,5 @@
 ## Curation level definitions
-### Basic 
+### Ingestion 
 All C-Path data receive basic curation upon ingest, before moving to the storage vault. Basic curation includes the following checks:
 
 - Does the dataset match the manifest? 
@@ -9,7 +9,8 @@ All C-Path data receive basic curation upon ingest, before moving to the storage
 - Make sure there is not PHI (data elements, master keys, etc.)  .
 - Make sure the uploaded data matches project(s) in DCA.
 
-At the end of basic curation, a receipt is automatically sent to Scientific Director and data contributor.
+At the end of basic curation, a receipt is automatically sent to Scientific Director and data contributor and stored in our archival bucket.
+Going forward, will automate the movement to workspace at the end of this.
 
 ### Minimal 1
 All DAP data receive minimal 1 curation before being moved to FAIR. The goal of minimal 1 is to provide rapid discovery of datasets, even in their raw form. Minimal 1 curation includes:
