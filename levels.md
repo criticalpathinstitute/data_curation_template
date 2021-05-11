@@ -1,6 +1,6 @@
 ## Curation level definitions
-### Level 0 
-All C-Path data receive basic Ilevel 0) curation upon ingest, before moving to the storage vault. Level 0 curation includes the following checks:
+### Level 0 (ingest)
+All C-Path data receive basic (level 0) curation upon ingest, before moving to the storage vault. Level 0 curation includes the following checks:
 
 - Does the dataset match the manifest? 
 - Are there data dictionaries for tabular data? 
@@ -9,8 +9,8 @@ All C-Path data receive basic Ilevel 0) curation upon ingest, before moving to t
 - Make sure there is not PHI (data elements, master keys, etc.)  .
 - Make sure the uploaded data matches project(s) in DCA.
 
-At the end of basic curation, a receipt is automatically sent to Scientific Director and data contributor and stored in our archival bucket.
-Going forward, will automate the movement of level 0 data to workspace at the end of ingest.
+At the end of ingestion, a receipt is automatically sent to Scientific Director and data contributor and stored in our archival bucket.
+Going forward, we will automate the movement of level 0 data to the curation workspace at the end of ingest.
 
 ### FAIR metadata
 All DAP data receive FAIR metadata curation before being moved to FAIR. Some data will be ingested in a state that is already end of FM1 and will go directly to FM2.
