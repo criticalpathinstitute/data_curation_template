@@ -39,11 +39,10 @@ The default set of variables to curate for Full 1 are (**for review**):
 - Trial level information 
 - Demographics 
 - Diagnosis variables 
-- Medications 
+- Study Medications (not concomitant medicatioons)
 - Procedures  
-- Labs? 
-- Imaging? – if the put it there, it is probably important 
-- Others? 
+- Lab results
+- Imaging? – if the put it there, it is probably important  
 
 Full 1 curation includes, for selected variables:
 - Clean and standardize data: 
