@@ -1,7 +1,7 @@
 ---
 name: 'FM1.3: Metadata and data catalog'
 about: Create a FAIR compliant DCAT dataset.
-title: ''
+title: 'FM1.3: Metadata and data catalog'
 labels: FM1
 assignees: ''
 

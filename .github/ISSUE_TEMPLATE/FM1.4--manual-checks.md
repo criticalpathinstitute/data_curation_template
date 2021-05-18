@@ -1,7 +1,7 @@
 ---
 name: 'FM1.4: Manual checks'
 about: Carry out manual checks on dataset.
-title: ''
+title: 'FM1.4: Manual checks'
 labels: FM1
 assignees: ''
 

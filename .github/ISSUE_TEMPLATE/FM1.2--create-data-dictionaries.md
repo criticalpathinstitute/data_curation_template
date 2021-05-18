@@ -1,7 +1,7 @@
 ---
 name: 'FM1.2: Create data dictionaries'
 about: Ensure tabular data have a matching dictionary.
-title: ''
+title: 'FM1.2: Create data dictionaries'
 labels: FM1
 assignees: ''
 

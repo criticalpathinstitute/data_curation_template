@@ -1,8 +1,8 @@
 ---
 name: 'FM2.1: Convert all tables to CSV'
 about: Convert any remaining tables to CSV
-title: ''
-labels: ''
+title: 'FM2.1: Convert all tables to CSV'
+labels: FM2
 assignees: ''
 
 ---
