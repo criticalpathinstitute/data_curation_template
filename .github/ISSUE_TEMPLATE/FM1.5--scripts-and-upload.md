@@ -1,8 +1,8 @@
 ---
-name: 'M1: Scripts and upload'
+name: 'FM1.5: Scripts and upload'
 about: Run the scripts to get the dataset ready for upload then upload it.
 title: ''
-labels: minimal1
+labels: FM1
 assignees: ''
 
 ---
