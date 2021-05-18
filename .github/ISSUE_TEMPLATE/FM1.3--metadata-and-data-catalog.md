@@ -1,5 +1,5 @@
 ---
-name: 'M1: Metadata and data catalog'
+name: 'FM1.3: Metadata and data catalog'
 about: Create a FAIR compliant DCAT dataset.
 title: ''
 labels: minimal1
@@ -22,3 +22,5 @@ Lookups
 Manifest 
 
 Files
+
+
