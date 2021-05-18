@@ -17,7 +17,7 @@ All C-Path data receive basic curation upon ingest, before moving to the storage
 **Before submission:**
 
 - Share dataset best practices document (in progress). Includes guidelines on how to best submit “tidy” data. 
-- Clarify what data to expect from each source. If this is not specified in the DCA, it should be spelled out in some other communications. 
+- Clarify what data to expect from each source. If this is not specified in the DCA, it should be spelled out in pre-curation survey (TODO add link to survey). 
 - Datasets should include a manifest (a list of all included files). We prefer that contributor create a manifest before uploading the data, but one could be created automatically. 
 
 **Perform automated data checks:**
@@ -42,20 +42,21 @@ All C-Path data receive basic curation upon ingest, before moving to the storage
 
 ### FAIR Metadata 1 Curation
 **Internal: FM1, External: raw**
-All DAP data receive minimal 1 curation before being moved to FAIR. The goal of minimal 1 is to provide rapid discovery of datasets, even in their raw form.
+All DAP data receive FM1 curation before being moved to FAIR. The goal of FM1 is to provide rapid discovery of datasets, even in their raw form.
 
  - Create new repository from the data_curation_template (this repo).
  - In the curation Workspace, create a folder hierarchy following naming conventions:
     - Top-level folder named for the dataset ID (e.g., RDCA#####)
         - *Subdirectories for:*
-        - Original Data
+        - Original_Data
         - Documentation
-        - FAIR uploads (catalog, dictionaries, and metadata go here) 
+        - FAIR_uploads (catalog, dictionaries, and metadata go here) 
           - *Subdirectories for versions:*
           - Beta 
           - V1 
           - V2 
           - ...
+          - TODO: Make sure we are clear on the schemas for subdirectories.
  - Copy the dataset into the curation Workspace in the appropriate folder under `Original data`.
  - Open a new issue using the template 'FM1.1: Convert to dataset' and follow the steps on the template
      - **NOTE:** These datasets need to go into a relational database that connects to the workspace, but for now, they will be saved as single datasets in the workspace.
