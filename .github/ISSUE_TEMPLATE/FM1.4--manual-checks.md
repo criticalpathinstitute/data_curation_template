@@ -1,5 +1,5 @@
 ---
-name: 'M1: Manual checks'
+name: 'FM1.4: Manual checks'
 about: Carry out manual checks on dataset.
 title: ''
 labels: minimal1
