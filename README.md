@@ -59,20 +59,20 @@ All DAP data receive minimal 1 curation before being moved to FAIR. The goal of 
  - Copy the dataset into the curation Workspace in the appropriate folder under `Original data`.
  - Open a new issue using the template 'M1: Convert to dataset' and follow the steps on the template
      - **NOTE:** These datasets need to go into a relational database that connects to the workspace, but for now, they will be saved as single datasets in the workspace.
- - Open a new issue using the template 'M1: Create data dictionaries' and follow the steps on the template.
- - Open a new issue using the template 'M1: Metadata and data catalog' and follow the steps on the template.
- - Open a new issue using the template 'M1: Manual checks' and follow the steps on the template.
- - Open a new issue using the template 'M1: Scripts and upload' and follow the steps on the template.
+ - Open a new issue using the template 'FM1: Create data dictionaries' and follow the steps on the template.
+ - Open a new issue using the template 'FM1: Metadata and data catalog' and follow the steps on the template.
+ - Open a new issue using the template 'FM1: Manual checks' and follow the steps on the template.
+ - Open a new issue using the template 'FM1: Scripts and upload' and follow the steps on the template.
      - Data files will go in the folder $datasetID/FAIR uploads/V1 
      - Data should be marked as "raw"
 
 ### FAIR Metadata 2 Curation
 **Internal: FM2, External: non-standardized**
-All data receive minimal 2 curation and update to FAIR, but priority rules may delay this step for some datasets. The goal of minimal 2 is to have all data tables on FAIR, but not standardized or cleaned up.
-- Open a new issue using the template 'M2: Convert all tables to CSV' and follow the steps on the template. Separate Excel workbooks into single sheets and save as CSV.
-- Open a new issue using the template 'M2: Dictionaries for all tables' and follow the steps on the template.
-- Open a new issue using the template 'M2: Other tasks discovered during Minimal 1 assessment' and follow the steps on the template. 
-- Open a new issue using the template 'M2: Scripts and upload' and follow the steps on the template.
+All data receive FAIR Metadata 2 curation and update to FAIR, but priority rules may delay this step for some datasets. The goal of FM2 is to have all data tables on FAIR, but not standardized or cleaned up.
+- Open a new issue using the template 'FM2: Convert all tables to CSV' and follow the steps on the template. Separate Excel workbooks into single sheets and save as CSV.
+- Open a new issue using the template 'FM2: Dictionaries for all tables' and follow the steps on the template.
+- Open a new issue using the template 'FM2: Other tasks discovered during FM1 assessment' and follow the steps on the template. 
+- Open a new issue using the template 'FM2: Scripts and upload' and follow the steps on the template.
      - Data files will go in the folder $datasetID/FAIR uploads/V2 
      - Data should be marked as "minimally curated"
 
