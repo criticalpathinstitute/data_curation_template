@@ -36,11 +36,12 @@ All C-Path data receive basic curation upon ingest, before moving to the storage
 **Send receipt:**
 - Receipt automatically sent to Scientific Director and data contributor.
 - Receipt includes: 
-- Manifest 
-- Summary of received files (names, size, number of columns and rows) 
-- Dataset Completeness (number of columns with binned percentages of complete observations) 
+    - Manifest 
+    - Summary of received files (names, size, number of columns and rows) 
+    - Dataset Completeness (number of columns with binned percentages of complete observations) 
 
-### Minimal 1 Curation
+### FAIR Metadata 1 Curation
+**Internal: FM1, External: raw**
 All DAP data receive minimal 1 curation before being moved to FAIR. The goal of minimal 1 is to provide rapid discovery of datasets, even in their raw form.
 
  - Create new repository from the data_curation_template (this repo).
@@ -65,7 +66,8 @@ All DAP data receive minimal 1 curation before being moved to FAIR. The goal of 
      - Data files will go in the folder $datasetID/FAIR uploads/V1 
      - Data should be marked as "raw"
 
-### Minimum 2 Curation
+### FAIR Metadata 2 Curation
+**Internal: FM2, External: non-standardized**
 All data receive minimal 2 curation and update to FAIR, but priority rules may delay this step for some datasets. The goal of minimal 2 is to have all data tables on FAIR, but not standardized or cleaned up.
 - Open a new issue using the template 'M2: Convert all tables to CSV' and follow the steps on the template. Separate Excel workbooks into single sheets and save as CSV.
 - Open a new issue using the template 'M2: Dictionaries for all tables' and follow the steps on the template.
@@ -74,5 +76,49 @@ All data receive minimal 2 curation and update to FAIR, but priority rules may d
      - Data files will go in the folder $datasetID/FAIR uploads/V2 
      - Data should be marked as "minimally curated"
 
+### FAIR variables 1
+**Internal: FV1, External: core variables standardized**
+Datasets receive full curation in order of their priority. Full 1 includes only selected variables, which may differ among consortia and among  types of datasets.
+
+The default set of variables to curate for Full 1 are (**for review**): 
+- Timing 
+- Trial level information 
+- Demographics 
+- Diagnosis variables 
+- Study Medications (not concomitant medicatioons)
+- Procedures  
+- Lab results
+- Imaging? – if the put it there, it is probably important  
+
+Full 1 curation includes, for selected variables:
+- Clean and standardize data: 
+   - Map files to a common data model (CDM). We are testing OMOP CDM for this purpose.
+- Convert variable name to standard name (from OMOP if available) 
+- Categorical variables: 
+   - Map values to standard terminology from OMOP or ontology or internal if nothing exists. 
+   - If internal, request terms in OMOP or ontology 
+- Ordinal variables: 
+   - Map to standard terminology 
+- Continuous variables: 
+   - Clean any obvious errors 
+   - Check for and mark outliers (when possible) 
+      - Requires a standard range or a large enough population 
+   - Add column to mark outliers 
+- For all variable types: 
+   - Keep original value and mark column as verbatum 
+   - Add new columns for changed value and change reason 
+   - Update data dictionary with status of variable (raw, curated, ontologized) 
+- Enforce naming conventions for data dictionaries 
+- Mark dataset as "core variables standardized"
+
+### FAIR variables 2
+**Internal: FV2, External: additional variables standardized**
+FV 2 curation is the same as FV 1, but it includes additional variables whose curation is requested after full 1.
+- Mark dataset as "additional variables standardized"
+
+### FAIR variables 3
+**Internal: FV3, External: all variables standardized**
+FV3 curation is the same as FV 1 and 2, but it includes all variables. Some dataset may never reach this level.
+- Mark dataset as "all variables standardized"
 
 
