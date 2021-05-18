@@ -67,9 +67,11 @@ Full 1 curation includes, for selected variables:
 
 ### FAIR variables 2
 **Internal: FV2, External: additional variables standardized**
-Full 2 curation is the same as full 1, but it includes additional variables whose curation is requested after full 1.
+FV 2 curation is the same as FV 1, but it includes additional variables whose curation is requested after full 1.
+- Mark dataset as "additional variables standardized"
 
 ### FAIR variables 3
 **Internal: FV3, External: all variables standardized**
 FV3 curation is the same as FV 1 and 2, but it includes all variables. Some dataset may never reach this level.
+- Mark dataset as "all variables standardized"
 
