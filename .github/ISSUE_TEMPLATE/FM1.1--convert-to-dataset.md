@@ -7,5 +7,5 @@ assignees: ''
 
 ---
 
-If there are single table data files that are not CSV (e.g., Excel, TSV), convert them to CSV.
+If there are single table data files that are not CSV (e.g., Excel, TSV), convert them to CSV using R.
 Convert any single-table CSV files to a dataset with the built in workspace function.
