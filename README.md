@@ -11,7 +11,7 @@ Curation levels are defined in [levels.md](https://github.com/criticalpathinstit
 
 ## Curation SOPs
 
-### Basic 
+### Basic/Ingestion 
 All C-Path data receive basic curation upon ingest, before moving to the storage vault. Basic curation includes the following steps:
 
 **Before submission:**
