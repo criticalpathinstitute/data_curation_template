@@ -1,5 +1,5 @@
 ---
-name: 'FM1: Convert to dataset'
+name: 'FM1.1: Convert to dataset'
 about: Convert tabular data to datasets.
 title: ''
 labels: FM1
